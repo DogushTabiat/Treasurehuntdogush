@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/app.css">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+
+    <title>Treasure Hunt - Game</title>
+</head>
+<body class="body-other">
+    <div class="grid-container">
+        <div class="container grid-item">
+            <div>
+                <p class="text-size-3 bold">Available treasure hunts</p>
+                <p>Please sellect one</p>
+            </div>
+            <div>
+            <table id="hunts-table" class="hunts">
+                <tr>
+                    <th>
+                        Title
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                    <th>
+                        Starts On
+                    </th>
+                    <th>
+                        End On
+                    </th>
+                </tr>
+            </table>
+            <p class="h3" id="loading">Fetcing active hunts!</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="../js/api.js"></script>
+</html>
